@@ -1,0 +1,88 @@
+body{
+  font-size: 15pt;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(poponto.png) ;
+  background-repeat: no-repeat;
+  
+  
+}
+.container{
+  Backdrop-filter: blur(70px);
+
+background: rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  padding-bottom:20;
+  
+}
+h5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
+}
+.center{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+h1.title{
+  margin-bottom: -10px;
+  padding-bottom: 0px;
+  font-weight: 700;
+  height: 52px;
+  font-size: 35px;
+  font-family: "ColfaxAI",-apple-system,BlinkMacSystemFont,Helvetica,sans-serif;
+  color: white;
+  z-index: 1;
+  text-shadow: 2px 2px 4px #000000;
+}
+ 
+input{
+  width:350px;
+  height: 58px;
+  outline: none;
+  padding-left: 18px;
+}
+input::placeholder{
+  font-size: 19px;
+}
+.continue{
+  width: 150px;
+  height: 30px;
+  background: #485d48;
+  color: white;
+  
+  font-size: 19px;
+  border-radius: 50px;
+  
+}
+.continue:hover{
+  background-color: #485d48;
+  border: solid white 2px;
+}
+
+a{
+  text-decoration: none;
+  color:#2410a3;
+}
+.continue1{
+  width: 350px;
+  height: 48px;
+  background: #dbdada;
+  color: #485d48;
+  font-size: 19px;
+  border-width: thin;
+  text-align: left;
+  border-color:#485d48!important;
+  display: inline;
+  margin-inline: 20px;
+  border-radius: 50px;
+  display: inline
+}
+.continue1:hover{
+  background-color:white;
+}

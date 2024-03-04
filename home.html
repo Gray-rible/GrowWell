@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<style>
+
+* { box-sizing: border-box; }
+
+    body { 
+      font-family: Arial; 
+      background-color: white;
+      margin: 0px;
+     }
+
+/* Header/Blog Title */
+      h2{
+        color: #485d48; 
+      }
+      .una{
+        position: sticky;
+        top: 0;
+        z-index: 1;
+      }
+      .header { 
+          
+          width: 100%;
+          background-color: #485d48; 
+          color: white;
+          padding: 10px;
+          
+      }
+     .header h6.logo {
+         font-size: 20px;
+         margin-left: 20px;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         
+         width: 250px;
+         padding: 10px;
+      }
+
+/* Style the top navigation bar */
+     .topnav {
+        width: 980px;
+       margin-top: -13px;
+       align-items: center;
+        display: inline-flex; 
+        overflow: hidden;
+        background-color:#485d48 ;
+        padding-top: 13px;
+        padding-left: 50px;
+        border-top: solid 1px white;
+       
+     }
+/* Style the topnav links */
+     .topnav a {
+        width: 100px;
+        margin-left: 30px;
+        margin-right: 30px;
+        display: inline;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+       border-bottom: 0px;
+     }
+     
+     #home {
+      border-top-left-radius: 25px;
+       border-top-right-radius: 25px;
+       background-color: white;
+       color:#485d48 ;
+    }
+/* Change color on hover */
+     .topnav a.yes:hover {
+       border-top-left-radius: 25px;
+       border-top-right-radius: 25px;
+       background-color: white;
+       color: #485d48;
+       
+     }
+     .procont{
+       margin-left: 20%;
+       margin-top: -15px;
+       
+     }
+     a.profile{
+       width: 30px;
+      height: 30px;
+      border-radius: 50%;
+       background-image: url(prop.png);
+       background-size: cover;
+       float: right;
+       border: solid white 1px;
+       
+     }
+   
+/* Create two unequal columns that floats next to each other */
+
+/* Left column */
+  .lefter{
+    
+  }
+.leftcolumn {
+position: sticky;
+    left: 0;
+    overflow: scroll;
+margin-top: -30px;
+height: 600px;
+float: left;
+
+width: 75%;
+
+}
+
+/* Right column */
+
+.rightcolumn {
+margin-top: 0px;
+float: left;
+position: sticky;
+    right: 0;
+    overflow: scroll;
+width: 25%;
+height: 600px;
+
+background-color: darkgray;
+
+padding-left: 20px;
+
+}
+
+/* Fake image */
+
+.fakeimg {
+
+background-color: #aaa;
+
+width: 100%;
+
+padding: 20px;
+
+}
+
+/* Add a card effect for articles */
+
+.card {
+
+background-color: white;
+
+padding: 20px;
+
+margin-top: 20px;
+
+}
+
+/* Clear floats after the columns */
+
+.row::after {
+
+content: "";
+
+display: table;
+
+clear: both;
+
+}
+
+/
+
+. footer {
+
+padding: 20px;
+
+text-align: center;
+
+background: #485d48;
+
+margin-top: 20px;
+
+}
+
+/* Responsive layout when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 800px) {
+
+.leftcolumn, rightcolumn { |
+
+width: 100%;
+
+padding: 0;
+
+}
+
+}
+/* Responsive layout when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 400px) {
+
+.topnav a {
+
+float: none;
+
+width: 100%;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+  <div class="una"> 
+  <div class="header">
+    <h6 class="logo ">Grow 🤍 Well</h6>
+     
+  </div>
+  <div class="topnav">
+    
+    <a class="yes" id="home" href="#"><strong>HOME</strong></a>
+    <a class="yes"href="#"><b>INSIGHTS</b></a>
+    <a class="yes"href="#"><b>RECORDER</b></a>
+    <a class="yes"class="chat" href="#"><b>CHATS</b></a>
+     <div class="procont"><a class="profile"></a></div> 
+  </div>
+     
+</div>
+<div class="row">
+
+<div class="leftcolumn">
+
+<div class="card">
+
+<div> <img src="first.png" alt="Cinque Terre" style="height:max;width: 103%; margin-left: -10px;"> Image</div>
+<h2 style="text-align:center">WELCOME HERE MHiE HHAHAHAH</h2>
+
+<h5 style="text-align:center">Title description, Dec 7, 2017</h5>
+
+
+<p>Some text..</p>
+
+<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+
+</div>
+
+<div class="card">
+  <h2>TITLE HEADING</h2>
+
+<h5>Title description, Sep 2, 2017</h5>
+
+<div class="fakeimg"
+
+style="height:200px;"> <img src="first.png" alt="Cinque Terre" style="height:200px;width: 100%;"></div>
+
+<p>Some text..</p>
+
+<p>Sunt in culpa qui officia deserunt
+
+mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+
+</div>
+
+</div>
+
+<div class="rightcolumn">
+<div class="lefter">
+<div class="card">
+
+<h2>About Us</h2>
+
+<div class="fakeimg"
+
+style="height:100px;">Image</div>
+
+<p>Some text about me in culpa qui officia
+
+deserunt mollit anim..</p>
+
+</div>
+
+<div class="card">
+
+<h3>Popular Post</h3>
+<div class="fakeimg"><p>Image</p></div>
+
+<div class="fakeimg"><p>Image</p></div>
+
+<div class="fakeimg"><p>Image</p></div>
+
+</div>
+
+<div class="card">
+
+<h3>Follow Me</h3>
+
+<p>Some text..</p>
+
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="footer">
+
+<h2>Footer</h2>
+
+</div>
+
+</body>
+
+</html>
